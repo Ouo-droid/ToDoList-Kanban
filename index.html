@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link href="https://fonts.googleapis.com/css2?family=Mokoto&display=swap" rel="stylesheet">
+  <script type="module" src="./scripts/main.js" defer></script>
+  <link rel="stylesheet" href="./styles/style.css">
+  <title>To-do List</title>
+</head>
+
+<body>
+  <h1>Mes tâches</h1>
+  <form action="./index.html" method="get" id="form">
+    <label for="title">Titre</label>
+    <input type="text" id="title" placeholder="Titre de la tâche" />
+    <label for="description">Description</label>
+    <textarea id="description" placeholder="Description de la tâche"></textarea>
+    <button type="submit" id="tasklist">Ajouter ma tâche</button>
+  </form>
+
+  <ul id="list"></ul>
+</body>
+
+</html>
